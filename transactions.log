@@ -1,0 +1,21 @@
+2025-11-12T21:53:44.922759500 - User created: User[UBI101] Prem Role=employee Accounts=[]
+2025-11-12T21:54:36.168474500 - User created: User[UBI102] Sohail Role=employee Accounts=[]
+2025-11-12T21:56:55.365616800 - User created: User[UBIC101] Suresh Role=customer Accounts=[]
+2025-11-12T21:57:22.086704 - Account created: Savings Account [3c07c097] Owner: Suresh Balance: 1500.00
+2025-11-12T21:58:12.448306900 - User created: User[UBIC102] Vignesh Role=customer Accounts=[]
+2025-11-12T21:59:17.887513900 - Failed withdrawal on 3c07c097: Cannot withdraw: savings account requires minimum balance of 100.0
+2025-11-12T21:59:58.740423800 - Deposit: Suresh deposited 4500.00 to 3c07c097. New bal=6000.00
+2025-11-12T22:11:55.811551200 - User deleted: UBI102
+2025-11-12T22:12:04.368865500 - User deleted: UBIC102
+2025-11-12T22:13:40.537581600 - Account created: Savings Account [6a11a49a] Owner: Suresh Balance: .00
+2025-11-12T22:13:50.949981700 - Account created: Current Account [8d9a7a42] Owner: Suresh Balance: .00
+2025-11-13T06:30:43.555766700 - Interest: Applied 240.00 interest to 3c07c097. New bal=6240.00
+2025-11-13T06:30:43.557775900 - Interest: Applied 0.00 interest to 6a11a49a. New bal=0.00
+2025-11-13T08:39:21.444238600 - Interest: Applied 249.60 interest to 3c07c097. New bal=6489.60
+2025-11-13T08:39:21.455458300 - Interest: Applied 0.00 interest to 6a11a49a. New bal=0.00
+2025-11-13T08:40:38.373805400 - User created: User[karthi26] karthikesh Role=employee Accounts=[]
+2025-11-13T10:53:58.975772 - User created: User[UBI102] P Role=customer Accounts=[]
+2025-11-13T10:54:17.617187600 - Account created: Savings Account [d2401fde] Owner: P Balance: 200.00
+2025-11-13T10:55:42.356911600 - Failed withdrawal on 6a11a49a: Cannot withdraw: savings account requires minimum balance of 100.0
+2025-11-13T10:56:15.894249700 - Withdrawal: Suresh withdrew 450.00 from 8d9a7a42 (Current, overdraft allowed). New bal=-450.00
+2025-11-13T10:56:42.824534800 - Failed withdrawal on 8d9a7a42: Exceeded overdraft limit.
